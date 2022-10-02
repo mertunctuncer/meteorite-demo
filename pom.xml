@@ -6,7 +6,7 @@
 
     <artifactId>meteorite-demo</artifactId>
     <groupId>dev.peopo</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>consoleApp</name>
@@ -52,12 +52,6 @@
                 <directory>src/resources</directory>
                 <includes>
                     <include>**/*.yml</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/</directory>
-                <includes>
-                    <include>plugin.yml</include>
                 </includes>
             </resource>
         </resources>
