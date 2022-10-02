@@ -16,14 +16,12 @@ import java.util.List;
 
 @DefaultCommand
 public class ColorCommand implements CommandClass {
-    public ColorCommand(MeteoritePlugin plugin) {
-        this.plugin = plugin;
-    }
-    private MeteoritePlugin plugin;
-    private MeteoriteInventory globalGUI = new MeteoriteInventory(plugin, "Colors", 9, 1, false);
+
+    private final MeteoriteInventory globalGUI;
     private final List<Colors> colors = new ArrayList<>();
-
-
+    public ColorCommand(MeteoritePlugin plugin) {
+        this.globalGUI = new MeteoriteInventory(plugin, "Colors", 9, 1, false);
+    }
 
     @Command(
             name = "color",
