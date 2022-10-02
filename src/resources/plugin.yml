@@ -1,0 +1,6 @@
+name: MeteoriteDemo
+description: Just a sample plugin.
+main: dev.peopo.meteoritedemo.MeteoriteDemoPlugin
+version: ${project.version}
+author: "Aki..#0001"
+depend: [MeteoriteAPI]
